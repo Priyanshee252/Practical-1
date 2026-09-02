@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Of Computer Engineering</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f6f9;
+            animation: fadeInPage 0.8s ease-in;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 6px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: #003366;
+        }
+
+        section {
+            padding: 35px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+
+        .faculty-member, .event {
+            background-color: #ffffff;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #003366;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .faculty-member h3, .event h3 {
+            margin: 0 0 5px 0;
+            color: #003366;
+        }
+
+        #programs ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #programs ul li {
+            background-color: #ffffff;
+            padding: 12px 18px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        #programs ul li:hover {
+            transform: translateX(6px);
+            background-color: #eaf1fb;
+        }
+
+        #contact p {
+            background-color: #ffffff;
+            display: flex;
+            padding: 8px 16px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Department of Computer Engineering</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>The Department of Computer Enginnering offers quality education in programming, algorithms, 
+               and modern technology. Our aim is to help students build strong technical and problem-solving 
+               skills.</p>
+        </section>
+
+        <section id="faculty">
+            <h2>Faculty</h2>
+
+            <div class="faculty-member">
+                <h3>Prof. Ashish Katira</h3>
+                <p>Professor, Artificial Intelligence</p>
+            </div>
+            <div class="faculty-member">
+                <h3>Prof. Sachi Joshi</h3>
+                <p>Associate Professor, Data Structures</p>
+            </div>
+            <div class="faculty-member">
+                <h3>Prof. Naina Parmar</h3>
+                <p>Assistant Professor, Web Development</p>
+            </div>
+        </section>
+
+        <section id="programs">
+            <h2>Academic Programs</h2>
+            <ul>  
+                <li>B.Sc. in Computer Science</li>
+                <li>B.Tech in Computer Engineering</li>
+                <li>M.Sc. in Computer Science</li>
+            </ul>
+        </section>
+
+        <section id="events">
+            <h2>Events</h2>
+
+            <div class="event">
+                <h3>Tech Fest 2026</h3>
+                <p>Date: 15 September 2026 — A celebration of student projects and innovation.</p>
+            </div>
+
+            <div class="event">
+                <h3>Coding Competition</h3>
+                <p>Date: 5 October 2026 — Open to all first and second year students.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p><strong>Email: </strong>ce.department@college.edu</p>
+            <p><strong>Phone: </strong>02697 265 287</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Department of Computer Science. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
